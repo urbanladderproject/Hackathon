@@ -52,6 +52,8 @@ public class GiftCard {
 
 	public void enter_to_giftcard(String order) {
 
+		Url_navigating_homepage.clearpage();
+		
 		order = input_data.get(order);
 		
 		if(order.equalsIgnoreCase("Gift Card")||order.equalsIgnoreCase("Gift Cards"))
