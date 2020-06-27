@@ -32,15 +32,8 @@ public class Url_navigating_homepage {
 
 	//closes the login popup 
 	public static void clearpage() {
-
-		try{
 			clearpage.click();
 			System.out.println("Page cleared to search");
-		}
-		catch(Exception e)
-		{
-			System.out.println("Page is already clear");
-		}
 	}
 
 	//Searches for bookshelf
